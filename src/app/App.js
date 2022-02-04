@@ -52,7 +52,7 @@ class App extends Component {     //Creo un componente
                                     <form onSubmit={this.addContractor}> 
                                         <div className="row">
                                             <div className="input-field col s12">
-                                                <input name="cedula" onChange={this.handleChange} type="text" placeholder="Cedula"/>
+                                                <input name="cedula" onChange={this.handleChange} type="text" placeholder="xxxxx"/>
                                             </div>
                                         </div>
                                         <div className="row">

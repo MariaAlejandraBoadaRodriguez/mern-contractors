@@ -57,7 +57,7 @@ class App extends Component {     //Creo un componente
                                         </div>
                                         <div className="row">
                                             <div className="input-field col s12">
-                                                <input name="nombre" onChange={this.handleChange} type="text" placeholder="Nombre Contratista"/>
+                                                <input name="nombre" onChange={this.handleChange} type="text" placeholder="xxxxxxx"/>
                                             </div>
                                         </div>
                                         <button type="submit" className="btn btn-light darken-4">

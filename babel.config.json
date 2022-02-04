@@ -1,0 +1,3 @@
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react"] //Presets debe leer env y react, babel va a buscar el archivo babelrc que es un archivo oculto, va a tomar ese archivo y transformara el codigo
+}

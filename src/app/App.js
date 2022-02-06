@@ -104,12 +104,14 @@ class App extends Component {     //Creo un componente
                                     <form onSubmit={this.addContractor}> 
                                         <div className="row">
                                             <div className="input-field col s12">
-                                                <input name="cedula" onChange={this.handleChange} type="text" placeholder="cedula" value={this.state.cedula}/>
+                                                <p><small>Cedula Contratistas</small></p>
+                                                <input name="cedula" onChange={this.handleChange} type="text" placeholder="Cedula Contratista" value={this.state.cedula}/>
                                             </div>
                                         </div>
                                         <div className="row">
                                             <div className="input-field col s12">
-                                                <input name="nombre" onChange={this.handleChange} type="text" placeholder="nombre" value={this.state.nombre}/>
+                                                <p><small>Nombre Contratistas</small></p>
+                                                <input name="nombre" onChange={this.handleChange} type="text" placeholder="Nombre Contratista" value={this.state.nombre}/>
                                             </div>
                                         </div>
                                         <button type="submit" className="btn btn-light darken-4">
